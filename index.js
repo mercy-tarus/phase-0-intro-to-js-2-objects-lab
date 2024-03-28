@@ -12,9 +12,6 @@ streetAddress:'11 Broadway',
 }
 };
   
-let key="name";
-let value="Sam";
-
    
 //function to update employee with key and value (destructive)
 const destructivelyUpdateEmployeeWithKeyAndValue=(employee,key,value)=>{employee[key]=value;
